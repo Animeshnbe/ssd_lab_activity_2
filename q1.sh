@@ -1,3 +1,5 @@
+#!/bin/bash
+
 num_lines=$(awk '{print NR}' $1|tail -1)
 
 if (( num_lines%2==0 ))
